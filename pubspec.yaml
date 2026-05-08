@@ -1,0 +1,32 @@
+name: sap_gui_scripting
+description: >-
+  True multi-threaded SAP GUI Automation for Dart & Flutter.
+  Native C++/COM bridge with STA dispatcher for parallel SAP session scripting on Windows.
+version: 0.0.1
+repository: https://github.com/JaviVC79/sap_gui_scripting
+issue_tracker: https://github.com/JaviVC79/sap_gui_scripting/issues
+
+environment:
+  sdk: ^3.10.3
+
+dependencies:
+  ffi: ^2.1.4
+  image: ^4.8.0
+  path: ^1.9.1
+  win32: ^5.15.0
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.24.0
+  mocktail: ^1.0.5
+  test_cov_console: ^0.2.2
+
+platforms:
+  windows:
+
+topics:
+  - sap
+  - automation
+  - rpa
+  - win32
+  - ffi
